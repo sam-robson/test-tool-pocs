@@ -1,0 +1,19 @@
+{
+  "tests": {
+    "tests/unit/java/test_unit.py": {
+      "description": "Run Java unit tests",
+      "command": "pytest --verbose",
+      "type": "unit"
+    },
+    "tests/unit/go/test_unit.py": {
+      "description": "Run Go unit tests",
+      "command": "pytest",
+      "type": "unit"
+    },
+    "tests/integration/go/test_integration.py": {
+      "description": "Run integration tests",
+      "command": "pytest",
+      "type": "integration"
+    }
+  }
+}

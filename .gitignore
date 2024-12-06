@@ -1,0 +1,4 @@
+.vscode
+.pytest_cache
+bin
+node_modules
