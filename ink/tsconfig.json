@@ -8,7 +8,7 @@
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true,
       "strict": true,
-      "outDir": "../bin/ink",
+      "outDir": "./dist",
       "allowJs": true
     },
     "include": ["src/**/*"]

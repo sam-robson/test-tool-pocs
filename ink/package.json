@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "bin": {
-    "run-tests": "./dist/cli.js"
+    "ink": "./dist/cli.js"
   },
   "scripts": {
-    "build": "npm install && npm link"
+    "build": "npm install && npx tsc && npm link"
   },
   "dependencies": {
     "@types/react": "^19.0.1",

@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env node
 import { render } from 'ink';
 import TestRunner from './test-runner.js';
 

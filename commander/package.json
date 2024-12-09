@@ -1,0 +1,27 @@
+{
+  "name": "commander",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "commander": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "npm install && npx tsc && npm link"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "execa": "^9.5.2",
+    "find-up": "^7.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.5",
+    "@types/node": "^22.10.1"
+  }
+}
