@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "bin": {
-    "run-tests": "./src/cli.tsx"
+    "run-tests": "./dist/cli.js"
   },
   "scripts": {
     "build": "npm install && npm link"

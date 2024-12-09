@@ -52,7 +52,7 @@ const TestRunner: React.FC = () => {
       setCursor(cursor + 1);
     }
 
-    if (input === ' ') {
+    if (input === ' ' || input === 'space') {
       const newItems = [...items];
       if (newItems[cursor].isAvailable) {
         newItems[cursor].selected = !newItems[cursor].selected;
